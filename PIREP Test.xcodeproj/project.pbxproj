@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		864D37C8248511E8003A9E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D37C7248511E8003A9E81 /* AppDelegate.swift */; };
 		864D37CA248511E8003A9E81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D37C9248511E8003A9E81 /* SceneDelegate.swift */; };
-		864D37CC248511E8003A9E81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D37CB248511E8003A9E81 /* ContentView.swift */; };
+		864D37CC248511E8003A9E81 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D37CB248511E8003A9E81 /* EntryView.swift */; };
 		864D37CE248511F3003A9E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864D37CD248511F3003A9E81 /* Assets.xcassets */; };
 		864D37D1248511F3003A9E81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864D37D0248511F3003A9E81 /* Preview Assets.xcassets */; };
 		864D37D4248511F3003A9E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864D37D2248511F3003A9E81 /* LaunchScreen.storyboard */; };
 		864D37DF248511F3003A9E81 /* PIREP_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D37DE248511F3003A9E81 /* PIREP_TestTests.swift */; };
 		864D37EA248511F3003A9E81 /* PIREP_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D37E9248511F3003A9E81 /* PIREP_TestUITests.swift */; };
+		864D37F82485176D003A9E81 /* Pirep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D37F72485176D003A9E81 /* Pirep.swift */; };
+		864D37FA2486D344003A9E81 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D37F92486D344003A9E81 /* Regex.swift */; };
+		864D37FC248B9E04003A9E81 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D37FB248B9E04003A9E81 /* ReportView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		864D37C4248511E8003A9E81 /* PIREP Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PIREP Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		864D37C7248511E8003A9E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		864D37C9248511E8003A9E81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		864D37CB248511E8003A9E81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		864D37CB248511E8003A9E81 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
 		864D37CD248511F3003A9E81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		864D37D0248511F3003A9E81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		864D37D3248511F3003A9E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,10 @@
 		864D37E5248511F3003A9E81 /* PIREP TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PIREP TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		864D37E9248511F3003A9E81 /* PIREP_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIREP_TestUITests.swift; sourceTree = "<group>"; };
 		864D37EB248511F3003A9E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864D37F72485176D003A9E81 /* Pirep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pirep.swift; sourceTree = "<group>"; };
+		864D37F92486D344003A9E81 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		864D37FB248B9E04003A9E81 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		8D731569B5FA959F9A3E09DF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,7 @@
 				864D37DD248511F3003A9E81 /* PIREP TestTests */,
 				864D37E8248511F3003A9E81 /* PIREP TestUITests */,
 				864D37C5248511E8003A9E81 /* Products */,
+				8D731569B5FA959F9A3E09DF /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +109,14 @@
 			children = (
 				864D37C7248511E8003A9E81 /* AppDelegate.swift */,
 				864D37C9248511E8003A9E81 /* SceneDelegate.swift */,
-				864D37CB248511E8003A9E81 /* ContentView.swift */,
+				864D37CB248511E8003A9E81 /* EntryView.swift */,
 				864D37CD248511F3003A9E81 /* Assets.xcassets */,
 				864D37D2248511F3003A9E81 /* LaunchScreen.storyboard */,
 				864D37D5248511F3003A9E81 /* Info.plist */,
 				864D37CF248511F3003A9E81 /* Preview Content */,
+				864D37F72485176D003A9E81 /* Pirep.swift */,
+				864D37F92486D344003A9E81 /* Regex.swift */,
+				864D37FB248B9E04003A9E81 /* ReportView.swift */,
 			);
 			path = "PIREP Test";
 			sourceTree = "<group>";
@@ -267,9 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864D37FA2486D344003A9E81 /* Regex.swift in Sources */,
 				864D37C8248511E8003A9E81 /* AppDelegate.swift in Sources */,
+				864D37FC248B9E04003A9E81 /* ReportView.swift in Sources */,
 				864D37CA248511E8003A9E81 /* SceneDelegate.swift in Sources */,
-				864D37CC248511E8003A9E81 /* ContentView.swift in Sources */,
+				864D37F82485176D003A9E81 /* Pirep.swift in Sources */,
+				864D37CC248511E8003A9E81 /* EntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
